@@ -1,4 +1,4 @@
-<?php include("header.php"); ?>
+<?php include("header.component.php"); ?>
 
 <h2> Cat Fun Facts</h2>
 
@@ -25,4 +25,4 @@ function showFacts($facts)
 showFacts($catFacts);
 ?>
 
-<?php include("footer.php"); ?>
+<?php include("footer.component.php"); ?>
