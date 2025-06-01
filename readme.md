@@ -9,11 +9,11 @@
     <img src="./assets/img/cat-face.jpg" alt="cat-face" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Cat Fun Facts</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Website made to display a few cat facts.
 </div>
 
 <br />
@@ -150,6 +150,7 @@ AD-ProjectName
 └─ bootstrap.php
 └─ composer.json
 └─ composer.lock
+└─ facts.php
 └─ index.php
 └─ readme.md
 └─ router.php
@@ -205,6 +206,70 @@ AD-Task-2-1
 │     ├─ assets
 │     │  ├─ css
 │     │  │  └─ example.css
+│     │  ├─ img
+│     │  │  └─ nyebe_white.png
+│     │  └─ js
+│     │     └─ example.js
+│     └─ index.php
+├─ README.Docker.md
+├─ readme.md
+├─ router.php
+├─ staticData
+│  └─ example.staticData.php
+└─ utils
+   ├─ Example.utils.php
+   └─ htmlEscape.utils.php
+
+```
+
+```
+AD-Task-2-1
+├─ .dockerignore
+├─ assets
+│  ├─ css
+│  │  └─ example.css
+│  ├─ img
+│  │  ├─ cat-bengal.jpg
+│  │  ├─ cat-bg.jpg
+│  │  ├─ cat-face.jpg
+│  │  ├─ cat-mc.jpg
+│  │  ├─ cat-persian.jpg
+│  │  ├─ cat-ragdoll.jpg
+│  │  ├─ cat-siamese.jpg
+│  │  └─ nyebe_white.png
+│  └─ js
+│     └─ example.js
+├─ bootstrap.php
+├─ components
+│  ├─ componentGroup
+│  │  ├─ example.component.php
+│  │  ├─ footer.component.php
+│  │  └─ header.component.php
+│  └─ templates
+│     └─ example.component.php
+├─ compose.yaml
+├─ composer.sample.json
+├─ Dockerfile
+├─ docs
+│  ├─ Database Manual.md
+│  ├─ Docker Manual.md
+│  ├─ PHP Dev Manual.md
+│  ├─ PHP File Structure Manual.md
+│  └─ VS Code Profile Manual.md
+├─ facts.php
+├─ handlers
+│  ├─ example.handlers.php
+│  ├─ mongodbChecker.handler.php
+│  └─ postgreChecker.handler.php
+├─ index.php
+├─ layout
+│  └─ example.layout.php
+├─ page
+│  └─ ExamplePage
+│     ├─ assets
+│     │  ├─ css
+│     │  │  ├─ example.css
+│     │  │  └─ style.css
 │     │  ├─ img
 │     │  │  └─ nyebe_white.png
 │     │  └─ js

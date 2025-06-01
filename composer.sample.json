@@ -1,15 +1,15 @@
 {
-    "name": "your-username-here/project-name-here",
+    "name": "JM Rivera/AD-Task-2",
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Ramir\\PhpPages\\": "src/"
+            "AD-Task-2\\PhpPages\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "your-username-here",
-            "email": "your-email-here@gmail.com"
+            "name": "JM Rivera",
+            "email": "201812905@fit.edu.ph"
         }
     ],
     "scripts": {
