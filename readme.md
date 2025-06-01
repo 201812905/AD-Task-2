@@ -21,8 +21,6 @@
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/AD-CI4-Template-Project)
-
 [![wakatime](https://wakatime.com/badge/user/856cf75b-eced-447f-ab8a-f49fe563f58b/project/19c0ab61-6780-4046-abc2-8aa0357ea68d.svg)](https://wakatime.com/badge/user/856cf75b-eced-447f-ab8a-f49fe563f58b/project/19c0ab61-6780-4046-abc2-8aa0357ea68d)
 
 ---
