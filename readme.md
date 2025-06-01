@@ -23,7 +23,7 @@
 
 ![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/AD-CI4-Template-Project)
 
-[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
+[![wakatime](https://wakatime.com/badge/user/856cf75b-eced-447f-ab8a-f49fe563f58b/project/19c0ab61-6780-4046-abc2-8aa0357ea68d.svg)](https://wakatime.com/badge/user/856cf75b-eced-447f-ab8a-f49fe563f58b/project/19c0ab61-6780-4046-abc2-8aa0357ea68d)
 
 ---
 
@@ -74,23 +74,28 @@ Description of the project in details.
 ### Technology
 
 <!-- TODO: List of Technology Used -->
+
 #### Language
+
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
 #### Framework/Library
+
 ![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EF4223?style=for-the-badge&logo=codeigniter&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 #### Databases
+
 ![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
 #### Deployment
+
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 ## Rules, Practices and Principles
@@ -103,13 +108,13 @@ Description of the project in details.
 4. Add `.util` to the `.php` files if they are utility codes; example: `account.util.php`.
 5. Place Files in their respective folders.
 6. Different file naming Cases
-   | Naming Case | Type of code         | Example                           |
+   | Naming Case | Type of code | Example |
    | ----------- | -------------------- | --------------------------------- |
-   | Pascal      | Utility              | Accoun.util.php                   |
-   | Camel       | Components and Pages | index.php or footer.component.php |
-8. Renaming of Pages folder names are a must, and relates to what it is doing or data it holding.
-9. Use proper label in your github commits: `feat`, `fix`, `refactor` and `docs`
-10. File Structure to follow below.
+   | Pascal | Utility | Accoun.util.php |
+   | Camel | Components and Pages | index.php or footer.component.php |
+7. Renaming of Pages folder names are a must, and relates to what it is doing or data it holding.
+8. Use proper label in your github commits: `feat`, `fix`, `refactor` and `docs`
+9. File Structure to follow below.
 
 ```
 AD-ProjectName
@@ -151,6 +156,7 @@ AD-ProjectName
 └─ readme.md
 └─ router.php
 ```
+
 > The following should be renamed: name.css, name.js, name.jpeg/.jpg/.webp/.png, name.component.php(but not the part of the `component.php`), Name.utils.php(but not the part of the `utils.php`)
 
 ## Resources
@@ -163,3 +169,56 @@ AD-ProjectName
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+
+```
+AD-Task-2-1
+├─ .dockerignore
+├─ assets
+│  ├─ css
+│  │  └─ example.css
+│  ├─ img
+│  │  └─ nyebe_white.png
+│  └─ js
+│     └─ example.js
+├─ bootstrap.php
+├─ components
+│  ├─ componentGroup
+│  │  └─ example.component.php
+│  └─ templates
+│     └─ example.component.php
+├─ compose.yaml
+├─ composer.sample.json
+├─ Dockerfile
+├─ docs
+│  ├─ Database Manual.md
+│  ├─ Docker Manual.md
+│  ├─ PHP Dev Manual.md
+│  ├─ PHP File Structure Manual.md
+│  └─ VS Code Profile Manual.md
+├─ handlers
+│  ├─ example.handlers.php
+│  ├─ mongodbChecker.handler.php
+│  └─ postgreChecker.handler.php
+├─ index.php
+├─ layout
+│  └─ example.layout.php
+├─ page
+│  └─ ExamplePage
+│     ├─ assets
+│     │  ├─ css
+│     │  │  └─ example.css
+│     │  ├─ img
+│     │  │  └─ nyebe_white.png
+│     │  └─ js
+│     │     └─ example.js
+│     └─ index.php
+├─ README.Docker.md
+├─ readme.md
+├─ router.php
+├─ staticData
+│  └─ example.staticData.php
+└─ utils
+   ├─ Example.utils.php
+   └─ htmlEscape.utils.php
+
+```
