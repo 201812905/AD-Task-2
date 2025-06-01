@@ -1,4 +1,4 @@
-<?php include("component/header.component.php"); ?>
+<?php include('components/componentGroup/header.component.php'); ?>
 
 <h2> Popular Cat Breeds</h2>
 
@@ -12,4 +12,4 @@ for ($i = 0; $i < count($breeds); $i++) {
 echo "</ul>";
 ?>
 
-<?php include("component/footer.component.php"); ?>
+<?php include('components/componentGroup/footer.component.php'); ?>

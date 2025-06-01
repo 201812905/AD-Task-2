@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
+    <link rel="stylesheet" href="page/ExamplePage/assets/css/style.css">
 
     <head>
-        <title>Cat Lovers Hub</title>
+        <title>Cat Facts</title>
         <link rel="stylesheet" href="style.css">
     </head>
 
